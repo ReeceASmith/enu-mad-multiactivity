@@ -5,5 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActivityA">
-
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        app:layout_constrantBottom_toBottomOf="parent"
+        app:layout_constrantTop_toTopOf="parent"
+        app:layout_constrantLeft_toLeftOf="parent"
+        app:layout_constrantRight_toRightOf="parent"
+        app:layout_constraintVertical_bias = "0.9"
+        app:layout_constraintHorizonal_bias = "0.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
